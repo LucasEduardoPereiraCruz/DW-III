@@ -1,0 +1,156 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\DW-III\\projetos\\VasosInteligentes\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C5B2BE41-160C-4585-B241-AD3981F8A304}|VasosInteligentes\\VasosInteligentes.csproj|c:\\dw-iii\\projetos\\vasosinteligentes\\vasosinteligentes\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5B2BE41-160C-4585-B241-AD3981F8A304}|VasosInteligentes\\VasosInteligentes.csproj|solutionrelative:vasosinteligentes\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5B2BE41-160C-4585-B241-AD3981F8A304}|VasosInteligentes\\VasosInteligentes.csproj|c:\\dw-iii\\projetos\\vasosinteligentes\\vasosinteligentes\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{C5B2BE41-160C-4585-B241-AD3981F8A304}|VasosInteligentes\\VasosInteligentes.csproj|solutionrelative:vasosinteligentes\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5B2BE41-160C-4585-B241-AD3981F8A304}|VasosInteligentes\\VasosInteligentes.csproj|c:\\dw-iii\\projetos\\vasosinteligentes\\vasosinteligentes\\data\\fakecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5B2BE41-160C-4585-B241-AD3981F8A304}|VasosInteligentes\\VasosInteligentes.csproj|solutionrelative:vasosinteligentes\\data\\fakecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5B2BE41-160C-4585-B241-AD3981F8A304}|VasosInteligentes\\VasosInteligentes.csproj|c:\\dw-iii\\projetos\\vasosinteligentes\\vasosinteligentes\\data\\contextmongodb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5B2BE41-160C-4585-B241-AD3981F8A304}|VasosInteligentes\\VasosInteligentes.csproj|solutionrelative:vasosinteligentes\\data\\contextmongodb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5B2BE41-160C-4585-B241-AD3981F8A304}|VasosInteligentes\\VasosInteligentes.csproj|c:\\dw-iii\\projetos\\vasosinteligentes\\vasosinteligentes\\data\\mongosettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5B2BE41-160C-4585-B241-AD3981F8A304}|VasosInteligentes\\VasosInteligentes.csproj|solutionrelative:vasosinteligentes\\data\\mongosettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5B2BE41-160C-4585-B241-AD3981F8A304}|VasosInteligentes\\VasosInteligentes.csproj|c:\\dw-iii\\projetos\\vasosinteligentes\\vasosinteligentes\\models\\vaso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5B2BE41-160C-4585-B241-AD3981F8A304}|VasosInteligentes\\VasosInteligentes.csproj|solutionrelative:vasosinteligentes\\models\\vaso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5B2BE41-160C-4585-B241-AD3981F8A304}|VasosInteligentes\\VasosInteligentes.csproj|c:\\dw-iii\\projetos\\vasosinteligentes\\vasosinteligentes\\models\\planta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5B2BE41-160C-4585-B241-AD3981F8A304}|VasosInteligentes\\VasosInteligentes.csproj|solutionrelative:vasosinteligentes\\models\\planta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5B2BE41-160C-4585-B241-AD3981F8A304}|VasosInteligentes\\VasosInteligentes.csproj|c:\\dw-iii\\projetos\\vasosinteligentes\\vasosinteligentes\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5B2BE41-160C-4585-B241-AD3981F8A304}|VasosInteligentes\\VasosInteligentes.csproj|solutionrelative:vasosinteligentes\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\DW-III\\projetos\\VasosInteligentes\\VasosInteligentes\\appsettings.json",
+              "RelativeDocumentMoniker": "VasosInteligentes\\appsettings.json",
+              "ToolTip": "C:\\DW-III\\projetos\\VasosInteligentes\\VasosInteligentes\\appsettings.json",
+              "RelativeToolTip": "VasosInteligentes\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-03-10T15:27:50.535Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\DW-III\\projetos\\VasosInteligentes\\VasosInteligentes\\Program.cs",
+              "RelativeDocumentMoniker": "VasosInteligentes\\Program.cs",
+              "ToolTip": "C:\\DW-III\\projetos\\VasosInteligentes\\VasosInteligentes\\Program.cs",
+              "RelativeToolTip": "VasosInteligentes\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-10T15:27:28.322Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FakeContext.cs",
+              "DocumentMoniker": "C:\\DW-III\\projetos\\VasosInteligentes\\VasosInteligentes\\Data\\FakeContext.cs",
+              "RelativeDocumentMoniker": "VasosInteligentes\\Data\\FakeContext.cs",
+              "ToolTip": "C:\\DW-III\\projetos\\VasosInteligentes\\VasosInteligentes\\Data\\FakeContext.cs",
+              "RelativeToolTip": "VasosInteligentes\\Data\\FakeContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-10T15:19:43.061Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MongoSettings.cs",
+              "DocumentMoniker": "C:\\DW-III\\projetos\\VasosInteligentes\\VasosInteligentes\\Data\\MongoSettings.cs",
+              "RelativeDocumentMoniker": "VasosInteligentes\\Data\\MongoSettings.cs",
+              "ToolTip": "C:\\DW-III\\projetos\\VasosInteligentes\\VasosInteligentes\\Data\\MongoSettings.cs",
+              "RelativeToolTip": "VasosInteligentes\\Data\\MongoSettings.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-10T15:10:09.353Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ContextMongoDb.cs",
+              "DocumentMoniker": "C:\\DW-III\\projetos\\VasosInteligentes\\VasosInteligentes\\Data\\ContextMongoDb.cs",
+              "RelativeDocumentMoniker": "VasosInteligentes\\Data\\ContextMongoDb.cs",
+              "ToolTip": "C:\\DW-III\\projetos\\VasosInteligentes\\VasosInteligentes\\Data\\ContextMongoDb.cs",
+              "RelativeToolTip": "VasosInteligentes\\Data\\ContextMongoDb.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAQwBsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-10T14:54:23.961Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Vaso.cs",
+              "DocumentMoniker": "C:\\DW-III\\projetos\\VasosInteligentes\\VasosInteligentes\\Models\\Vaso.cs",
+              "RelativeDocumentMoniker": "VasosInteligentes\\Models\\Vaso.cs",
+              "ToolTip": "C:\\DW-III\\projetos\\VasosInteligentes\\VasosInteligentes\\Models\\Vaso.cs",
+              "RelativeToolTip": "VasosInteligentes\\Models\\Vaso.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-10T14:01:07.146Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "C:\\DW-III\\projetos\\VasosInteligentes\\VasosInteligentes\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "VasosInteligentes\\Models\\ErrorViewModel.cs",
+              "ToolTip": "C:\\DW-III\\projetos\\VasosInteligentes\\VasosInteligentes\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "VasosInteligentes\\Models\\ErrorViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-10T14:00:42.928Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Planta.cs",
+              "DocumentMoniker": "C:\\DW-III\\projetos\\VasosInteligentes\\VasosInteligentes\\Models\\Planta.cs",
+              "RelativeDocumentMoniker": "VasosInteligentes\\Models\\Planta.cs",
+              "ToolTip": "C:\\DW-III\\projetos\\VasosInteligentes\\VasosInteligentes\\Models\\Planta.cs",
+              "RelativeToolTip": "VasosInteligentes\\Models\\Planta.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-10T14:00:36.496Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
