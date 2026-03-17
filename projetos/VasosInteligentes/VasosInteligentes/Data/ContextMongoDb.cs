@@ -21,7 +21,7 @@ namespace VasosInteligentes.Data
             }
 
             var client = new MongoClient(clientSettings);
-            _database = client.GetDatabase(mongoSettings.DataBase);
+            _database = client.GetDatabase(mongoSettings.Database);
         }
 
         public IMongoCollection<Vaso> Vaso
