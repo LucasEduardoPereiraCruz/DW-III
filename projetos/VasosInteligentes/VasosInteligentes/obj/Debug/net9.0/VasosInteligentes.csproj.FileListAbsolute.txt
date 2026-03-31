@@ -328,3 +328,5 @@ C:\DW-III\projetos\VasosInteligentes\VasosInteligentes\obj\Debug\net9.0\refint\V
 C:\DW-III\projetos\VasosInteligentes\VasosInteligentes\obj\Debug\net9.0\VasosInteligentes.pdb
 C:\DW-III\projetos\VasosInteligentes\VasosInteligentes\obj\Debug\net9.0\VasosInteligentes.genruntimeconfig.cache
 C:\DW-III\projetos\VasosInteligentes\VasosInteligentes\obj\Debug\net9.0\ref\VasosInteligentes.dll
+C:\DW-III\projetos\VasosInteligentes\VasosInteligentes\bin\Debug\net9.0\AspNetCore.Identity.MongoDbCore.dll
+C:\DW-III\projetos\VasosInteligentes\VasosInteligentes\bin\Debug\net9.0\MongoDbGenericRepository.dll

@@ -31,7 +31,7 @@ namespace VasosInteligentes.Controllers
             if (ModelState.IsValid)
             {
                 ApplicationUser appuser = await _userManager.FindByNameAsync(email);
-                if(appuser == null)
+                if(appuser != null)
                 {
                     Microsoft.AspNetCore.Identity.SignInResult result =
                         await _signInManager.PasswordSignInAsync(appuser, password, false, false);

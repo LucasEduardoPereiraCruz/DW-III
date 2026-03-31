@@ -16,6 +16,8 @@ namespace VasosInteligentes.Models
         [Display(Name = "Localização")]
         public double Localizacao { get; set; } //trocar para string e tem que ir no mongo apagar o vaso e dps cadastrar dnv
 
+        public string? UsuarioId { get; set; }
+
         public List<Planta> PlantaRelacionada { get; set; } = new List<Planta>();
     }
 }
