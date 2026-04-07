@@ -40,7 +40,7 @@ namespace VasosInteligentes.Seeds
                     Email = "admin@admin.com",
                     EmailConfirmed = true
                 };
-                var ResultAdmin = await userManeger.CreateAsync(adminUser, "admin@admin.com");
+                var ResultAdmin = await userManeger.CreateAsync(adminUser, defaultPassword);
                     
                 if (ResultAdmin.Succeeded)
                 {
@@ -61,7 +61,7 @@ namespace VasosInteligentes.Seeds
                     Email = "teste@usuario.com",
                     EmailConfirmed = true
                 };
-                var resultUser = await userManeger.CreateAsync(user, "teste@usuario");
+                var resultUser = await userManeger.CreateAsync(user, "Teste@123");
 
                 if (resultUser.Succeeded)
                 {

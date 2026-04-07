@@ -24,6 +24,7 @@
                             <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
                         </li>
                         <partial name="_loginAdmin.cshtml" />
+                        <partial name="_partialUsuario.cshtml" />
                         @*Verificando se o usuario esta logado*@
                         @if(User?.Identity?.IsAuthenticated ?? false) 
                         {

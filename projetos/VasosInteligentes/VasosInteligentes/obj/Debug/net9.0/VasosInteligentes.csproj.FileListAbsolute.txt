@@ -330,3 +330,6 @@ C:\DW-III\projetos\VasosInteligentes\VasosInteligentes\obj\Debug\net9.0\VasosInt
 C:\DW-III\projetos\VasosInteligentes\VasosInteligentes\obj\Debug\net9.0\ref\VasosInteligentes.dll
 C:\DW-III\projetos\VasosInteligentes\VasosInteligentes\bin\Debug\net9.0\AspNetCore.Identity.MongoDbCore.dll
 C:\DW-III\projetos\VasosInteligentes\VasosInteligentes\bin\Debug\net9.0\MongoDbGenericRepository.dll
+C:\DW-III\projetos\VasosInteligentes\VasosInteligentes\bin\Debug\net9.0\BouncyCastle.Cryptography.dll
+C:\DW-III\projetos\VasosInteligentes\VasosInteligentes\bin\Debug\net9.0\MailKit.dll
+C:\DW-III\projetos\VasosInteligentes\VasosInteligentes\bin\Debug\net9.0\MimeKit.dll

@@ -2,6 +2,7 @@ using Microsoft.AspNetCore.Identity;
 using VasosInteligentes.Data;
 using VasosInteligentes.Models;
 using VasosInteligentes.Seeds;
+using VasosInteligentes.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -31,6 +32,10 @@ builder.Services.AddIdentity<ApplicationUser, ApplicationRole>
 
 // Importando para Scaffolding e as RazorPages
 builder.Services.AddRazorPages();
+
+// Configuração envio de email 
+builder.Services.Configure<EmailSettings>(builder.Configuration.GetSection("EmailSettigs"));
+builder.Services.AddSingleton<EmailService>();
 
 var app = builder.Build();
 
