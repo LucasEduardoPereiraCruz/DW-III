@@ -4,6 +4,8 @@ using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using VasosInteligentes.Models;
+using VasosInteligentes.Services;
+using VasosInteligentes.ViewModel;
 
 namespace VasosInteligentes.Controllers
 {
@@ -13,11 +15,11 @@ namespace VasosInteligentes.Controllers
         private UserManager<ApplicationUser> _userManager;
         private SignInManager<ApplicationUser> _signInManager;
         private EmailService _emailService;
-        public AccountsController(UserManager<ApplicationUser> userManager, SignInManager<ApplicationUser> SignInManager, _emailService emailService)
+        public AccountsController(UserManager<ApplicationUser> userManager, SignInManager<ApplicationUser> SignInManager, EmailService emailService)
         { 
             _userManager = userManager;
             _signInManager = SignInManager;
-            EmailService = emailService; 
+            _emailService = emailService;
         }
 
 
@@ -83,6 +85,54 @@ namespace VasosInteligentes.Controllers
             // Enviar email 
             await _emailService.SendEmailAsync(email, assunto, corpo);
             return RedirectToAction("ForgotPasswordConfirm");
+        }
+        public IActionResult ForgotPasswordConfirm()
+        {
+            return View();
+        }
+        public IActionResult ResetPassword(string token, string userId)
+        {
+            if(token == null || token == "")
+            {
+                ModelState.AddModelError("", "Token Invalido");
+            }
+            var model = new ResetPasswordViewModel
+            {
+                Token = token,
+                UserId = userId
+            };
+
+            return View();
+        }
+
+        public IActionResult ResetPasswordConfirm()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> ResetPassword(ResetPasswordViewModel model)
+        {
+            if (ModelState.IsValid)
+            {
+                return View(model);
+            }
+            var user = await _userManager.FindByIdAsync(model.UserId);
+            if (user == null)
+            {
+                return RedirectToAction("ResetPasswordConfirm");
+            }
+            var decodeToken = HttpUtility.UrlDecode(model.Token);
+            var result = await _userManager.ResetPasswordAsync(user, decodeToken, model.NewPassword);
+            if (result.Succeeded)
+            {
+                return RedirectToAction("ResetPasswordConfirm");
+            }
+            foreach(var error in result.Errors)
+            {
+                ModelState.AddModelError("", error.Description);
+            }
+            return View(model);
         }
     } // classe
 } // namespace 

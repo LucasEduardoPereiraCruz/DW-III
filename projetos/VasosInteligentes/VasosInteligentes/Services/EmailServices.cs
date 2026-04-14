@@ -2,6 +2,7 @@
 using Microsoft.Extensions.Options;
 using MimeKit;
 using MimeKit.Text;
+using VasosInteligentes.Settings;
 
 
 namespace VasosInteligentes.Services
@@ -12,14 +13,14 @@ namespace VasosInteligentes.Services
 
         public EmailService(IOptions<EmailSettings> emailSettings)
         {
-            _emailSettings = emailSettings;
+            _emailSettings = emailSettings.Value;
         }
         public async Task SendEmailAsync(string ToEmail, string subject, string message)
         {
             try
             {
                 var email = new MimeMessage();
-                email.From.Add(new MailboxAddress(_emailSettings.SenderName, _emailSettings.Sender));
+                email.From.Add(new MailboxAddress(_emailSettings.SanderName, _emailSettings.SanderEmail));
                 email.To.Add(MailboxAddress.Parse(ToEmail));
                 email.Subject = subject;
 
