@@ -148,7 +148,7 @@
               "RelativeDocumentMoniker": "VasosInteligentes\\Program.cs",
               "ToolTip": "C:\\DW-III\\projetos\\VasosInteligentes\\VasosInteligentes\\Program.cs",
               "RelativeToolTip": "VasosInteligentes\\Program.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAAACkAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAADQAAAAAAAAAAAAAAE0AAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-10T15:27:28.322Z",
               "IsPinned": true,
@@ -164,8 +164,7 @@
               "RelativeToolTip": "VasosInteligentes\\Services\\EmailServices.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-07T15:10:36.829Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-07T15:10:36.829Z"
             },
             {
               "$type": "Document",
@@ -177,8 +176,7 @@
               "RelativeToolTip": "VasosInteligentes\\Controllers\\AccountsController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-24T15:10:33.561Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-24T15:10:33.561Z"
             },
             {
               "$type": "Document",
@@ -190,8 +188,7 @@
               "RelativeToolTip": "VasosInteligentes\\Controllers\\PlantasController.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAABMAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-17T12:56:18.917Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-17T12:56:18.917Z"
             },
             {
               "$type": "Document",
@@ -203,8 +200,7 @@
               "RelativeToolTip": "VasosInteligentes\\Models\\ApplicationRole.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-24T14:58:03.721Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-24T14:58:03.721Z"
             },
             {
               "$type": "Document",
@@ -216,8 +212,7 @@
               "RelativeToolTip": "VasosInteligentes\\Models\\Vaso.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-10T14:01:07.146Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-10T14:01:07.146Z"
             },
             {
               "$type": "Document",
@@ -229,8 +224,7 @@
               "RelativeToolTip": "VasosInteligentes\\Views\\Vasos\\Delete.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-03-24T14:43:48.154Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-24T14:43:48.154Z"
             },
             {
               "$type": "Document",
@@ -242,8 +236,7 @@
               "RelativeToolTip": "VasosInteligentes\\Data\\MongoSettings.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-10T15:10:09.353Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-10T15:10:09.353Z"
             },
             {
               "$type": "Document",
@@ -255,8 +248,7 @@
               "RelativeToolTip": "VasosInteligentes\\Views\\Shared\\_Layout.cshtml",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAABwAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-03-17T13:05:09.02Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-17T13:05:09.02Z"
             },
             {
               "$type": "Document",
@@ -268,8 +260,7 @@
               "RelativeToolTip": "VasosInteligentes\\Views\\Plantas\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-04-07T13:46:43.391Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-07T13:46:43.391Z"
             },
             {
               "$type": "Document",
@@ -294,8 +285,7 @@
               "RelativeToolTip": "VasosInteligentes\\Views\\Accounts\\Login.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-03-31T13:07:59.485Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-31T13:07:59.485Z"
             },
             {
               "$type": "Document",
@@ -307,8 +297,7 @@
               "RelativeToolTip": "VasosInteligentes\\Data\\FakeContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-10T15:19:43.061Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-10T15:19:43.061Z"
             },
             {
               "$type": "Document",
@@ -320,8 +309,7 @@
               "RelativeToolTip": "VasosInteligentes\\Seeds\\IdentitySeeds.cs",
               "ViewState": "AgIAACIAAAAAAAAAAAAgwD8AAABHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-31T13:21:11.96Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-31T13:21:11.96Z"
             },
             {
               "$type": "Document",
@@ -333,21 +321,19 @@
               "RelativeToolTip": "VasosInteligentes\\Views\\Shared\\_loginAdmin.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAABTAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-03-31T15:30:01.703Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-31T15:30:01.703Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "VasosInteligentes",
+              "Title": "VasosInteligentes.csproj",
               "DocumentMoniker": "C:\\DW-III\\projetos\\VasosInteligentes\\VasosInteligentes\\VasosInteligentes.csproj",
               "RelativeDocumentMoniker": "VasosInteligentes\\VasosInteligentes.csproj",
               "ToolTip": "C:\\DW-III\\projetos\\VasosInteligentes\\VasosInteligentes\\VasosInteligentes.csproj",
               "RelativeToolTip": "VasosInteligentes\\VasosInteligentes.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-04-07T14:03:21.406Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-07T14:03:21.406Z"
             },
             {
               "$type": "Document",
@@ -359,8 +345,7 @@
               "RelativeToolTip": "VasosInteligentes\\Views\\Shared\\_partialUsuario.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAABZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-04-07T13:52:43.142Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-07T13:52:43.142Z"
             },
             {
               "$type": "Document",
@@ -372,8 +357,7 @@
               "RelativeToolTip": "VasosInteligentes\\Views\\Vasos\\MeusVasos.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAADYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-04-07T13:48:57.821Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-07T13:48:57.821Z"
             },
             {
               "$type": "Document",
@@ -385,8 +369,7 @@
               "RelativeToolTip": "VasosInteligentes\\Data\\ContextMongoDb.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-10T14:54:23.961Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-10T14:54:23.961Z"
             },
             {
               "$type": "Document",
@@ -398,8 +381,7 @@
               "RelativeToolTip": "VasosInteligentes\\Controllers\\VasosController.cs",
               "ViewState": "AgIAAJEAAAAAAAAAAAAUwKUAAABlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-17T12:57:48.596Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-17T12:57:48.596Z"
             },
             {
               "$type": "Document",
@@ -411,8 +393,7 @@
               "RelativeToolTip": "VasosInteligentes\\Views\\Home\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-03-17T13:04:22.049Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-17T13:04:22.049Z"
             },
             {
               "$type": "Document",
@@ -424,8 +405,7 @@
               "RelativeToolTip": "VasosInteligentes\\Views\\Plantas\\Create.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAABSAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-03-17T14:36:06.734Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-17T14:36:06.734Z"
             },
             {
               "$type": "Document",
@@ -437,8 +417,7 @@
               "RelativeToolTip": "VasosInteligentes\\wwwroot\\css\\site.css",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2026-03-17T14:48:49.064Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-17T14:48:49.064Z"
             },
             {
               "$type": "Document",
@@ -450,8 +429,7 @@
               "RelativeToolTip": "VasosInteligentes\\Views\\Vasos\\Create.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-03-17T15:27:38.868Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-17T15:27:38.868Z"
             },
             {
               "$type": "Document",
@@ -463,8 +441,7 @@
               "RelativeToolTip": "VasosInteligentes\\Views\\Vasos\\Details.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-03-24T13:52:49.093Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-24T13:52:49.093Z"
             },
             {
               "$type": "Document",
@@ -476,8 +453,7 @@
               "RelativeToolTip": "VasosInteligentes\\Models\\ApplicationUser.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-24T14:57:09.235Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-24T14:57:09.235Z"
             },
             {
               "$type": "Document",
@@ -489,8 +465,7 @@
               "RelativeToolTip": "VasosInteligentes\\Views\\Vasos\\Edit.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAC0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-03-17T15:41:32.253Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-17T15:41:32.253Z"
             },
             {
               "$type": "Document",
@@ -502,8 +477,7 @@
               "RelativeToolTip": "VasosInteligentes\\Views\\Vasos\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-03-17T15:35:19.505Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-17T15:35:19.505Z"
             },
             {
               "$type": "Document",
@@ -515,8 +489,7 @@
               "RelativeToolTip": "VasosInteligentes\\Models\\User.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-24T14:58:28.665Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-24T14:58:28.665Z"
             },
             {
               "$type": "Document",
@@ -528,8 +501,7 @@
               "RelativeToolTip": "VasosInteligentes\\Controllers\\HomeController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-17T12:59:35.617Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-17T12:59:35.617Z"
             },
             {
               "$type": "Document",
@@ -541,8 +513,7 @@
               "RelativeToolTip": "VasosInteligentes\\Models\\ErrorViewModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-10T14:00:42.928Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-10T14:00:42.928Z"
             },
             {
               "$type": "Document",
@@ -554,8 +525,7 @@
               "RelativeToolTip": "VasosInteligentes\\Models\\Planta.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-10T14:00:36.496Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-10T14:00:36.496Z"
             }
           ]
         }
