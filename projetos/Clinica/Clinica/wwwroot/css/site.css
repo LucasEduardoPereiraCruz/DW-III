@@ -29,3 +29,85 @@ body {
 .form-floating > .form-control-plaintext:focus::placeholder, .form-floating > .form-control:focus::placeholder {
   text-align: start;
 }
+
+
+/* DESIGN */
+
+/* container geral */
+table {
+    border-collapse: collapse;
+    margin-top: 15px;
+    min-width: 400px;
+    background: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+    /* cabeçalho */
+    table thead {
+        background-color: #0d6efd;
+        color: white;
+    }
+
+    table th {
+        text-align: left;
+        padding: 12px;
+        font-weight: 600;
+    }
+
+    /* linhas */
+    table td {
+        padding: 12px;
+        border-bottom: 1px solid #eee;
+    }
+
+    /* efeito hover */
+    table tbody tr:hover {
+        background-color: #f5f5f5;
+    }
+
+/* link "Nova Clínica" */
+a[href*="Create"] {
+    display: inline-block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 8px 12px;
+    background-color: #198754;
+    color: white !important;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: 500;
+}
+
+    a[href*="Create"]:hover {
+        background-color: #157347;
+    }
+
+/* link de ação (tipo Desligar) */
+a[href*="Toggle"] {
+    padding: 5px 10px;
+    background-color: #dc3545;
+    color: white !important;
+    border-radius: 6px;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+    a[href*="Toggle"]:hover {
+        background-color: #bb2d3b;
+    }
+
+
+
+
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: #f8f9fa;
+    text-align: center;
+    padding: 30px;
+}

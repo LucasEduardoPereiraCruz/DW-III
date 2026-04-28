@@ -3,12 +3,36 @@
   "WorkspaceRootPath": "C:\\DW-III\\projetos\\Clinica\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B4701331-FA8B-4904-83B1-33108496788E}|Clinica\\Clinica.csproj|c:\\dw-iii\\projetos\\clinica\\clinica\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{B4701331-FA8B-4904-83B1-33108496788E}|Clinica\\Clinica.csproj|solutionrelative:clinica\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{B4701331-FA8B-4904-83B1-33108496788E}|Clinica\\Clinica.csproj|c:\\dw-iii\\projetos\\clinica\\clinica\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{B4701331-FA8B-4904-83B1-33108496788E}|Clinica\\Clinica.csproj|solutionrelative:clinica\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4701331-FA8B-4904-83B1-33108496788E}|Clinica\\Clinica.csproj|c:\\dw-iii\\projetos\\clinica\\clinica\\views\\clinica\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B4701331-FA8B-4904-83B1-33108496788E}|Clinica\\Clinica.csproj|solutionrelative:clinica\\views\\clinica\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4701331-FA8B-4904-83B1-33108496788E}|Clinica\\Clinica.csproj|c:\\dw-iii\\projetos\\clinica\\clinica\\controllers\\clinicacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4701331-FA8B-4904-83B1-33108496788E}|Clinica\\Clinica.csproj|solutionrelative:clinica\\controllers\\clinicacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4701331-FA8B-4904-83B1-33108496788E}|Clinica\\Clinica.csproj|c:\\dw-iii\\projetos\\clinica\\clinica\\models\\clinicamodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4701331-FA8B-4904-83B1-33108496788E}|Clinica\\Clinica.csproj|solutionrelative:clinica\\models\\clinicamodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4701331-FA8B-4904-83B1-33108496788E}|Clinica\\Clinica.csproj|c:\\dw-iii\\projetos\\clinica\\clinica\\views\\clinica\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B4701331-FA8B-4904-83B1-33108496788E}|Clinica\\Clinica.csproj|solutionrelative:clinica\\views\\clinica\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4701331-FA8B-4904-83B1-33108496788E}|Clinica\\Clinica.csproj|c:\\dw-iii\\projetos\\clinica\\clinica\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{B4701331-FA8B-4904-83B1-33108496788E}|Clinica\\Clinica.csproj|solutionrelative:clinica\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B4701331-FA8B-4904-83B1-33108496788E}|Clinica\\Clinica.csproj|c:\\dw-iii\\projetos\\clinica\\clinica\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{B4701331-FA8B-4904-83B1-33108496788E}|Clinica\\Clinica.csproj|solutionrelative:clinica\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4701331-FA8B-4904-83B1-33108496788E}|Clinica\\Clinica.csproj|c:\\dw-iii\\projetos\\clinica\\clinica\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B4701331-FA8B-4904-83B1-33108496788E}|Clinica\\Clinica.csproj|solutionrelative:clinica\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,11 +42,89 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "site.js",
+              "DocumentMoniker": "C:\\DW-III\\projetos\\Clinica\\Clinica\\wwwroot\\js\\site.js",
+              "RelativeDocumentMoniker": "Clinica\\wwwroot\\js\\site.js",
+              "ToolTip": "C:\\DW-III\\projetos\\Clinica\\Clinica\\wwwroot\\js\\site.js",
+              "RelativeToolTip": "Clinica\\wwwroot\\js\\site.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2026-04-28T16:32:14.196Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\DW-III\\projetos\\Clinica\\Clinica\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "Clinica\\wwwroot\\css\\site.css",
+              "ToolTip": "C:\\DW-III\\projetos\\Clinica\\Clinica\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "Clinica\\wwwroot\\css\\site.css",
+              "ViewState": "AgIAAFoAAAAAAAAAAAAmwG8AAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-04-28T16:18:42.386Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\DW-III\\projetos\\Clinica\\Clinica\\Views\\Clinica\\Create.cshtml",
+              "RelativeDocumentMoniker": "Clinica\\Views\\Clinica\\Create.cshtml",
+              "ToolTip": "C:\\DW-III\\projetos\\Clinica\\Clinica\\Views\\Clinica\\Create.cshtml",
+              "RelativeToolTip": "Clinica\\Views\\Clinica\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-28T16:12:24.402Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ClinicaModel.cs",
+              "DocumentMoniker": "C:\\DW-III\\projetos\\Clinica\\Clinica\\Models\\ClinicaModel.cs",
+              "RelativeDocumentMoniker": "Clinica\\Models\\ClinicaModel.cs",
+              "ToolTip": "C:\\DW-III\\projetos\\Clinica\\Clinica\\Models\\ClinicaModel.cs",
+              "RelativeToolTip": "Clinica\\Models\\ClinicaModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-28T16:09:48.656Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ClinicaController.cs",
+              "DocumentMoniker": "C:\\DW-III\\projetos\\Clinica\\Clinica\\Controllers\\ClinicaController.cs",
+              "RelativeDocumentMoniker": "Clinica\\Controllers\\ClinicaController.cs",
+              "ToolTip": "C:\\DW-III\\projetos\\Clinica\\Clinica\\Controllers\\ClinicaController.cs",
+              "RelativeToolTip": "Clinica\\Controllers\\ClinicaController.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAiwC0AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-28T16:06:41.902Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\DW-III\\projetos\\Clinica\\Clinica\\Views\\Clinica\\Index.cshtml",
+              "RelativeDocumentMoniker": "Clinica\\Views\\Clinica\\Index.cshtml",
+              "ToolTip": "C:\\DW-III\\projetos\\Clinica\\Clinica\\Views\\Clinica\\Index.cshtml",
+              "RelativeToolTip": "Clinica\\Views\\Clinica\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-28T16:04:40.259Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "_ViewStart.cshtml",
               "DocumentMoniker": "C:\\DW-III\\projetos\\Clinica\\Clinica\\Views\\_ViewStart.cshtml",
               "RelativeDocumentMoniker": "Clinica\\Views\\_ViewStart.cshtml",
@@ -35,13 +137,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 6,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\DW-III\\projetos\\Clinica\\Clinica\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "Clinica\\Views\\Shared\\_Layout.cshtml",
               "ToolTip": "C:\\DW-III\\projetos\\Clinica\\Clinica\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "Clinica\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADQAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2026-04-28T15:26:03.59Z",
               "EditorCaption": ""
