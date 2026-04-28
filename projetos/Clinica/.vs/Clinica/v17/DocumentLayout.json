@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\DW-III\\projetos\\Clinica\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B4701331-FA8B-4904-83B1-33108496788E}|Clinica\\Clinica.csproj|c:\\dw-iii\\projetos\\clinica\\clinica\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B4701331-FA8B-4904-83B1-33108496788E}|Clinica\\Clinica.csproj|solutionrelative:clinica\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4701331-FA8B-4904-83B1-33108496788E}|Clinica\\Clinica.csproj|c:\\dw-iii\\projetos\\clinica\\clinica\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B4701331-FA8B-4904-83B1-33108496788E}|Clinica\\Clinica.csproj|solutionrelative:clinica\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\DW-III\\projetos\\Clinica\\Clinica\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "Clinica\\Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\DW-III\\projetos\\Clinica\\Clinica\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "Clinica\\Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-28T15:28:21.179Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\DW-III\\projetos\\Clinica\\Clinica\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Clinica\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\DW-III\\projetos\\Clinica\\Clinica\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Clinica\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-28T15:26:03.59Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

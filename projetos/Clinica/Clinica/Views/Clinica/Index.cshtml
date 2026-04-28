@@ -1,0 +1,26 @@
+﻿@model List<Clinica.Models.ClinicaModel>
+
+<h2>Clínicas</h2>
+
+<a href="/Clinica/Create">Nova Clínica</a>
+
+<table border="1">
+    <tr>
+        <th>Nome</th>
+        <th>Alarme</th>
+        <th>Ação</th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>@item.Nome</td>
+            <td>@(item.Alarme ? "Ligado" : "Desligado")</td>
+            <td>
+                <a href="/Clinica/ToggleAlarme/@item.Id">
+                    @(item.Alarme ? "Desligar" : "Ligar")
+                </a>
+            </td>
+        </tr>
+    }
+</table>
