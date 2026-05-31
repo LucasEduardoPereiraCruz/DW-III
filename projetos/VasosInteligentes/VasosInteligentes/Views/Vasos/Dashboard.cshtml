@@ -1,0 +1,80 @@
+﻿
+
+@{
+    ViewData["Title"] = "Dashboard";
+}
+
+<h1>Dashboard</h1>
+
+<p>Manhã: @string.Join(", ", ViewBag.Manha)</p>
+<p>Tarde: @string.Join(", ", ViewBag.Tarde)</p>
+<p>Noite: @string.Join(", ", ViewBag.Noite)</p>
+<p>Vasos: @string.Join(", ", ViewBag.Categorias)</p>
+
+@*O grafico vai aparecer aqui*@
+
+<div id="chart"></div>
+
+@section Scripts
+{
+    @* biblioteca ApexCharts *@
+    <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+
+    <script>
+                var options = {
+            // legendas do gráfico 
+          series: [
+            {
+              name: 'Manhã',
+              // Dados vindo do controller 
+              data: @Html.Raw(System.Text.Json.JsonSerializer.Serialize(ViewBag.Manha))
+            },
+            {
+              name: 'Tarde',
+              data: @Html.Raw(System.Text.Json.JsonSerializer.Serialize(ViewBag.Tarde))
+            },
+            {
+              name: 'Noite',
+              data: @Html.Raw(System.Text.Json.JsonSerializer.Serialize(ViewBag.Noite))
+            },
+          ],
+          chart: {
+            type: 'bar',
+            height: 350,
+            stacked: true,
+            
+          },
+          responsive: [
+            {
+              breakpoint: 480,
+              options: {
+                legend: {
+                  position: 'bottom',
+                  offsetX: -10,
+                  offsetY: 0,
+                },
+              },
+            },
+          ],
+          // nomes do vasos embaixo 
+          xaxis: {
+             categories: @Html.Raw(System.Text.Json.JsonSerializer.Serialize(ViewBag.Categorias))
+          },
+          fill: {
+            opacity: 1,
+          },
+          legend: {
+            position: 'right',
+            offsetX: 0,
+            offsetY: 50,
+          },
+        }
+        // renderizar gráficos 
+        var chart = new ApexCharts(document.querySelector('#chart'), options) // aqui ele vai usar a Div chart e as configurações (#chart indica a div lá de cima)
+        //exibe o gráfico na tela 
+        chart.render()
+
+
+
+    </script>
+}

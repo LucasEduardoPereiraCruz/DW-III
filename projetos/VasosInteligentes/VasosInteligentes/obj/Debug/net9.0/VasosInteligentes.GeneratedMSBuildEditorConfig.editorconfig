@@ -92,6 +92,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmFzb3NcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/DW-III/projetos/VasosInteligentes/VasosInteligentes/Views/Vasos/Dashboard.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmFzb3NcRGFzaGJvYXJkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/DW-III/projetos/VasosInteligentes/VasosInteligentes/Views/Vasos/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmFzb3NcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 

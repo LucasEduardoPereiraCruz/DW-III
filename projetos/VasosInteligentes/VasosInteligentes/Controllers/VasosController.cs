@@ -267,6 +267,75 @@ namespace VasosInteligentes.Controllers
             return RedirectToAction(nameof(MeusVasos));
         }
 
+
+        // DASHBOARD APENAS PARA USUÁRIO COMUM 
+        [Authorize(Roles = "Usuario")]
+        public async Task<IActionResult> Dashboard()
+        {
+            // pegar o usuário logado 
+            var user = await _userManager.GetUserAsync(User);
+            // se não estiver logado, volta para o login 
+            if (user == null)
+            {
+                return RedirectToAction("Login", "Accounts");
+            }
+
+            // buscar vasos do usuário que já estão logados 
+            var vasos = await _context.Vaso.Find(v => v.UsuarioId == user.Id).ToListAsync();
+
+            // armazena a lista dos nomes dos vasos (fica embaixo do gráfico)
+            var categorias = new List<string>();
+
+            // listas de médias da luminosidade 
+            var manha = new List<double>();
+            var tarde = new List<double>();
+            var noite = new List<double>();
+
+            //percorrer todos os vasos do usuário 
+            foreach (var vaso in vasos)
+            {
+                // adicionar nome do vaso 
+                categorias.Add(vaso.Nome ?? "Sem nome");
+
+                // buscar leituras daquele vaso 
+                var leituras = await _context.LeituraSensor.Find(l => l.VasoId == vaso.Id).ToListAsync();
+
+                // MANHÃ 
+                var mediaManha = leituras.Where(l => l.DataLeitura.Hour >= 6 && l.DataLeitura.ToLocalTime().Hour < 12)
+                    .Select(l => l.Luminosidade) // Pega só a luminosidade das leituras 
+                    .DefaultIfEmpty(0) // Se estiver vazio coloca 0 
+                    .Average(); // Calcula a média 
+
+                // TARDE 
+                var mediaTarde = leituras.Where(l => l.DataLeitura.Hour >= 12 && l.DataLeitura.ToLocalTime().Hour < 18)
+                    .Select(l => l.Luminosidade) // Pega só a luminosidade das leituras 
+                    .DefaultIfEmpty(0) // Se estiver vazio coloca 0 
+                    .Average(); // Calcula a média 
+                    
+                // NOITE 
+                var mediaNoite = leituras.Where(l => l.DataLeitura.Hour >= 18 && l.DataLeitura.ToLocalTime().Hour < 6)
+                    .Select(l => l.Luminosidade) // Pega só a luminosidade das leituras 
+                    .DefaultIfEmpty(0) // Se estiver vazio coloca 0 
+                    .Average(); // Calcula a média 
+
+                // adicionar medias nas listas
+                manha.Add(mediaManha); 
+                tarde.Add(mediaTarde); 
+                noite.Add(mediaNoite); 
+
+            }
+
+            // Enviar dados para a View 
+            ViewBag.Categorias = categorias; 
+            ViewBag.manha = manha; 
+            ViewBag.tarde = tarde; 
+            ViewBag.noite = noite; 
+            
+            return View();
+        }
+
+
+
         private async Task<bool> VasoExists(string id)
         {
             return await _context.Vaso.Find(e => e.Id == id).AnyAsync();
