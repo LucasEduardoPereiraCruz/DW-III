@@ -313,15 +313,15 @@ namespace VasosInteligentes.Controllers
                     .Average(); // Calcula a média 
                     
                 // NOITE 
-                var mediaNoite = leituras.Where(l => l.DataLeitura.Hour >= 18 && l.DataLeitura.ToLocalTime().Hour < 6)
+                var mediaNoite = leituras.Where(l => l.DataLeitura.Hour >= 18 || l.DataLeitura.ToLocalTime().Hour < 23)
                     .Select(l => l.Luminosidade) // Pega só a luminosidade das leituras 
                     .DefaultIfEmpty(0) // Se estiver vazio coloca 0 
                     .Average(); // Calcula a média 
 
                 // adicionar medias nas listas
-                manha.Add(mediaManha); 
-                tarde.Add(mediaTarde); 
-                noite.Add(mediaNoite); 
+                manha.Add(Math.Round(mediaManha));
+                tarde.Add(Math.Round(mediaTarde));
+                noite.Add(Math.Round(mediaNoite));
 
             }
 

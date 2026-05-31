@@ -6,10 +6,6 @@
 
 <h1>Dashboard</h1>
 
-<p>Manhã: @string.Join(", ", ViewBag.Manha)</p>
-<p>Tarde: @string.Join(", ", ViewBag.Tarde)</p>
-<p>Noite: @string.Join(", ", ViewBag.Noite)</p>
-<p>Vasos: @string.Join(", ", ViewBag.Categorias)</p>
 
 @*O grafico vai aparecer aqui*@
 
@@ -73,8 +69,6 @@
         var chart = new ApexCharts(document.querySelector('#chart'), options) // aqui ele vai usar a Div chart e as configurações (#chart indica a div lá de cima)
         //exibe o gráfico na tela 
         chart.render()
-
-
 
     </script>
 }
