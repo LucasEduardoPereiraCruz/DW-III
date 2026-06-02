@@ -301,21 +301,21 @@ namespace VasosInteligentes.Controllers
                 var leituras = await _context.LeituraSensor.Find(l => l.VasoId == vaso.Id).ToListAsync();
 
                 // MANHÃ 
-                var mediaManha = leituras.Where(l => l.DataLeitura.Hour >= 6 && l.DataLeitura.ToLocalTime().Hour < 12)
+                var mediaManha = leituras.Where(l => l.DataLeitura.ToLocalTime().Hour >= 6 && l.DataLeitura.ToLocalTime().Hour < 12)
                     .Select(l => l.Luminosidade) // Pega só a luminosidade das leituras 
                     .DefaultIfEmpty(0) // Se estiver vazio coloca 0 
                     .Average(); // Calcula a média 
 
                 // TARDE 
-                var mediaTarde = leituras.Where(l => l.DataLeitura.Hour >= 12 && l.DataLeitura.ToLocalTime().Hour < 18)
+                var mediaTarde = leituras.Where(l => l.DataLeitura.ToLocalTime().Hour >= 12 && l.DataLeitura.ToLocalTime().Hour < 18)
                     .Select(l => l.Luminosidade) // Pega só a luminosidade das leituras 
                     .DefaultIfEmpty(0) // Se estiver vazio coloca 0 
                     .Average(); // Calcula a média 
                     
                 // NOITE 
-                var mediaNoite = leituras.Where(l => l.DataLeitura.Hour >= 18 || l.DataLeitura.ToLocalTime().Hour < 23)
+                var mediaNoite = leituras.Where(l => l.DataLeitura.ToLocalTime().Hour >= 18 && l.DataLeitura.ToLocalTime().Hour < 23)
                     .Select(l => l.Luminosidade) // Pega só a luminosidade das leituras 
-                    .DefaultIfEmpty(0) // Se estiver vazio coloca 0 
+                    .DefaultIfEmpty(0) // Se estiver vazio coloca 0 como padrão
                     .Average(); // Calcula a média 
 
                 // adicionar medias nas listas

@@ -50,16 +50,16 @@
                     @Html.DisplayFor(modelItem => item.Localizacao)
                 </td>
                 <td>
-                    @item.UltimaLeitura.Temperatura
+                    @item.UltimaLeitura?.Temperatura
                 </td>
                 <td>
-                    @item.UltimaLeitura.Umidade
+                    @item.UltimaLeitura?.Umidade
                 </td>
                 <td>
-                    @item.UltimaLeitura.Luminosidade
+                    @item.UltimaLeitura?.Luminosidade
                 </td>
                 <td>
-                    @item.UltimaLeitura.DataLeitura.ToLocalTime().ToString("HH:mm:ss")
+                    @item.UltimaLeitura?.DataLeitura.ToLocalTime().ToString("HH:mm:ss")
                 </td>
                 <td>
                     <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |

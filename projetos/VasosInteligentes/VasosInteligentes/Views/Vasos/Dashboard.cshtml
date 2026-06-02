@@ -9,7 +9,7 @@
 
 @*O grafico vai aparecer aqui*@
 
-<div id="chart"></div>
+<div id="chart"></div> @* Grafico desenhado *@
 
 @section Scripts
 {
@@ -52,7 +52,7 @@
               },
             },
           ],
-          // nomes do vasos embaixo 
+          // nomes do vasos embaixo (eixo x)
           xaxis: {
              categories: @Html.Raw(System.Text.Json.JsonSerializer.Serialize(ViewBag.Categorias))
           },
